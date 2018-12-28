@@ -2,6 +2,12 @@ Install and Configure Concourse CI on CentOS 7
 
 ansible-playbook main.yml -i hosts
 
+use:
+    PostgreSQL 11
+
+    Concourse v4.2.2
+
+    Nginx latest
 
 setup your credentials
 
@@ -14,6 +20,8 @@ setup your credentials
     concourse_login: admin
 
     concourse_pass: roix5Tatshai3Wei12
+
+
 
 
 wiki source:
